@@ -129,7 +129,7 @@ lh = \relative c {
   }
   bes2.~ bes8 f bes4. bes8 bes4. bes8
   bes4. bes8 bes4. bes8 f4. f8 f4. f8
-  f4. f8 f4. f8 ees2 ees'4. ees8 <f, f'>1
+  f4. f8 f4. f8 ees2 ees'4. ees8 <f, f'>1 \pageBreak
 
   \repeat volta 2 {
     bes2.~ bes8 f
