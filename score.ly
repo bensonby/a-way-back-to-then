@@ -242,7 +242,7 @@ dynamics = {
   s1*18
 
   % bar 21
-  s2.\< s4\! s1\mf
+  s2.\< s8 s\! s1\mf
   s1*12
 
   %bar 35
