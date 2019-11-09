@@ -197,7 +197,7 @@ melody = \relative c' {
   ees4 d8. c16~ c bes bes8~ bes4
   r4 r8 f16 f ees'8 d16 ees~ ees d8 bes16
   bes1 R1 r2 r4 r8 bes16 bes
-  ees8 d16 ees16~ ees f8 f16~ f4 r8 d16 d
+  ees8( d16) ees16~ ees f8 f16~ f4 r8 d16 d
   ees8 d16 ees~ ees8 d16 ees~ ees ees d bes~ bes8 f16 f
   ees'8. ees16~ ees g8 f16~ f2
   ees8 d~ d16 ees8 d16 bes4 r8 bes16 bes
@@ -215,9 +215,9 @@ melody = \relative c' {
   f8 e16 f~ f g8 g16~ g4 r8 e16 e
   f8 e16 f~ f e8 f16~ f e c c~ c8 c
   f8 e16 f~ f a8 g16~ g4 r8 e16 e
-  f8 e16 f~( f g8) g16~ g4. g8
+  f8 e16 f~( f g8) g16~ g4. g8(
   \time 2/4
-  f8 e16 f~ f g8 g16~
+  f8) e16 f~ f g8 g16~
   \time 4/4
   g2 r8 g g g
   \key aes \major
@@ -225,7 +225,7 @@ melody = \relative c' {
   ees16 ees8 ees16 ees aes8 aes16~ aes4 r8 aes16 aes
   ees8 ees16 ees~ ees aes8 bes16~ bes8 c16 bes~ bes8 r16 aes
   \tuplet 3/2 4 { ees8 ees ees} ees'16 c8 bes16 ~ bes8 aes r8 r16 ees
-  ees16 ees8 ees16~ ees aes8 bes16~ bes bes c8 \tuplet 3/2 4 {c8 bes aes}
+  ees16 ees8 ees16~ ees aes8 bes16~ bes bes c8 \tuplet 3/2 4 {c8( bes) aes}
   bes4 r r8 c4 bes8
   bes16 aes bes8~ bes4 r8 c bes aes
   des4. des8~ des aes4.~
